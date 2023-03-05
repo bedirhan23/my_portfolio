@@ -105,36 +105,36 @@ dbi.close()
 dbu.close()
 dbo.close()
 
-buluna = True
+onGoing = True
 
-while(buluna):
-    arkadan = "Kullanici secimi yapiniz: \n"
+while(onGoing):
+    useChoose = "Kullanici secimi yapiniz: \n"
     i = 1
     for user in userList:
-        arkadan += str(i) + ": " + user.user_name + "\n"
+        userChoose += str(i) + ": " + user.user_name + "\n"
         i = i + 1
-    kullanici_secim = int(input(arkadan))
-    agzina = True
-    while(agzina):
-        onden = "Urun secimi yapiniz: \n"
+    kullanici_secim = int(input(userChoose))
+    orderOnGoing = True
+    while(orderOnGoing):
+        itemChoose = "Urun secimi yapiniz: \n"
         j = 1
         for item in itemList:
-            onden += str(j) + ": " + item.item_name + "\n"
+            itemChoose += str(j) + ": " + item.item_name + "\n"
             j = j + 1
-        urun_secim = int(input(onden))
+        urun_secim = int(input(itemChoose))
         piece = int(input("Lutfen satin alma adedi girin: "))
         try:
             userList[kullanici_secim-1].order_list.append(Order("ORDER-"+str(len(userList[kullanici_secim-1].order_list)), userList[kullanici_secim-1], itemList[urun_secim-1], piece))
         except Exception as e:
             print(e)
         if input("Baska bir urun girmek ister misiniz? [E, H]: ") == "H":
-            agzina = False
+            orderOnGoing = False
     for item in itemList:
         item.item_info()
     
     print("\nKullanici "+str(userList[kullanici_secim-1].user_uuid)+" toplamda "+str(len(userList[kullanici_secim-1].order_list))+" adet siparis vermis ve "+str(userList[kullanici_secim-1].spending)+" harcamis. ")
     if input("Kullanici girisi yapmak ister misiniz? [E, H]: ") == "H":
-        buluna = False
+        onGoing = False
         eskisiniSil("items")
         dbi = dbm.open("items", 'c')
         for item in itemList:
