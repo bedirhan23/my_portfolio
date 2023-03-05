@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xlmns : th="http://www.thymeleaf.org">
+<style type="text/css">
+    label{
+        display : inline-block;
+        width : 150px;
+        margin: 5px;
+        text-align: left;
+
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title> Input Form</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Input Form</h1>
+        <form action="#" th:action="@{/service/textprocess}" th:object="${inputText}" method="POST">
+            <label> Main Text:</label>
+            <input type="text" th:field="*{mainText}" /><br/>
+
+            <label> Combine Function: </label>
+            <input type="text" th:field="*{comFunc}" /><br/>
+
+            <label> Function Name: </label>
+            <input type="text" th:field="*{funcName}" /><br/>
+
+            <label> Exploped by Text: </label>
+            <input type="text" th:field="*{expByText}" /><br/>
+
+            <label> Exploped by Limit: </label>
+            <input type="text" th:field="*{expByLimit}" /><br/>
+
+            <input type="submit" value="Submit" />
+
+
+        </form>
+
+
+    </div>
+
+</body>
+</html>
