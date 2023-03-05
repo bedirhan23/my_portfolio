@@ -1,0 +1,154 @@
+[{
+    "isim": "Selpak Tuvalet Kagidi",
+    "stok": "10",
+    "marka": "Selpak",
+    "fiyat": "29.90",
+    "aciklama": "4lu",
+    "kategori": ["Ev Bakim", "KagitUrunleri"],
+    "link": "https://cdn.getir.com/product/55a004bf35a77b0c0075cd0c_tr_1602362018887.jpeg"
+},
+{
+    "isim": "Duru Granul Sabun",
+    "stok": "10",
+    "marka": "Duru",
+    "fiyat": "57.99",
+    "aciklama": "1 kg",
+    "kategori": ["Ev Bakim", "Camasir"],
+    "link": "https://cdn.getir.com/product/5ceae03a9d3ea8000196e178_tr_1604129383031.jpeg"
+},
+{
+    "isim": "Cook Cop Torbasi Orta",
+    "stok": "10",
+    "marka": "Cook",
+    "fiyat": "10.25",
+    "aciklama": "15'li - 55 x 60 cm",
+    "kategori": ["Ev Bakim", "Mutfak"],
+    "link": "https://cdn.getir.com/product/5c29e82878654c00014ed0cb_tr_1604781196527.jpeg"
+},
+{
+    "isim": "Duracell İnce",
+    "stok": "10",
+    "marka": "Duracell",
+    "fiyat": "39.90",
+    "aciklama": "4lu",
+    "kategori": ["Ev Yasam", "Pil"],
+    "link": "https://cdn.getir.com/product/57ab080887014a03008aaebd_tr_1597245028415.jpeg"
+},
+{
+    "isim": "Semsiye",
+    "stok": "10",
+    "marka": "Yagmurkovan",
+    "fiyat": "94.90",
+    "aciklama": "Siyah",
+    "kategori": ["Ev Yasam", "Semsiye"],
+    "link": "https://cdn.getir.com/product/5d974be3bcb5847fb4d7ba65_tr_1570201391034.jpeg"
+},
+{
+    "isim": "Play-Doh Mini Oyun Seti",
+    "stok": "10",
+    "marka": "Play-Doh",
+    "fiyat": "69.90",
+    "aciklama": "1 Urun",
+    "kategori": ["Ev Yasam", "OyunOyuncak"],
+    "link": "https://cdn.getir.com/product/603fb869648eaa0535fc6088_tr_1614853862147.jpeg"
+},
+{
+    "isim": "ttec Type-C Sarj Kablosu",
+    "stok": "10",
+    "marka": "ttec",
+    "fiyat": "59.90",
+    "aciklama": "120 cm",
+    "kategori": ["Teknoloji", "SarjAletiKablo"],
+    "link": "https://cdn.getir.com/product/5c66b5d83d4b940001a4fc64_365324e1-f5ad-440f-b6e0-5c10e268824a.jpeg"
+},
+{
+    "isim": "Apple Lightning Jak Kablosu",
+    "stok": "10",
+    "marka": "Apple",
+    "fiyat": "119.00",
+    "aciklama": "3,5 mm",
+    "kategori": ["Teknoloji", "SarjAletiKablo"],
+    "link": "https://cdn.getir.com/product/5a945dff5140970004e3d643.jpeg?v=1523100566150"
+},
+{
+    "isim": "taks Tasinabilir Hoparlor",
+    "stok": "10",
+    "marka": "taks",
+    "fiyat": "199.90",
+    "aciklama": "Kirmizi",
+    "kategori": ["Teknoloji", "Muzik"],
+    "link": "https://cdn.getir.com/product/60d1bedcb2d16d680d91b92f_tr_1624875462028.jpeg"
+},
+{
+    "isim": "Nohutlu Bulgur Pilavi",
+    "stok": "10",
+    "marka": "Yayla",
+    "fiyat": "10.80",
+    "aciklama": "250g",
+    "kategori": ["Yiyecek", "HazirYemek"],
+    "link": "https://cdn.getir.com/product/5c6d74056af39d00015df18d_tr_1617198871772.jpeg"
+},
+{
+    "isim": "Mozzarellali ve Dana Jambonlu",
+    "stok": "10",
+    "marka": "Dardanel",
+    "fiyat": "27.96",
+    "aciklama": "145g",
+    "kategori": ["Yiyecek", "Sandvic"],
+    "link": "https://cdn.getir.com/product/5669a3e52201b40f00a7e0a2_tr_1605787509776.jpeg"
+},
+{
+    "isim": "Tavuk Pestolu Fit",
+    "stok": "10",
+    "marka": "Dardanel",
+    "fiyat": "37.31",
+    "aciklama": "145g",
+    "kategori": ["Yiyecek", "Sandvic"],
+    "link": "https://cdn.getir.com/product/5ced482f4a8a2a000137da89_tr_1595850484580.jpeg"
+},
+{
+    "isim": "Dardanel Ton",
+    "stok": "10",
+    "marka": "Dardanel",
+    "fiyat": "24.51",
+    "aciklama": "150g",
+    "kategori": ["Yiyecek", "KonserveTursu"],
+    "link": "https://cdn.getir.com/product/5e9d5554490defc3d0b536a1_tr_1598729699370.jpeg"
+},
+{
+    "isim": "Ariste Peynir Tabagi",
+    "stok": "10",
+    "marka": "Ariste",
+    "fiyat": "68.95",
+    "aciklama": "250g",
+    "kategori": ["Yiyecek", "Meze"],
+    "link": "https://cdn.getir.com/product/57ac260a25459a03009be583_tr_1615191814972.jpeg"
+},
+{
+    "isim": "Erikli",
+    "stok": "10",
+    "marka": "Erikli",
+    "fiyat": "24.03",
+    "aciklama": "6 x 1 L",
+    "kategori": ["SuIcecek", "Su"],
+    "link": "https://cdn.getir.com/product/5fbce44d7d580fc3304aee67_tr_1606977334786.jpeg"
+},
+{
+    "isim": "Dimes Karisik C Vitaminli",
+    "stok": "10",
+    "marka": "Dimes",
+    "fiyat": "15.40",
+    "aciklama": "1L",
+    "kategori": ["SuIcecek", "MeyveSuyu"],
+    "link": "https://cdn.getir.com/product/5adf46d5080fca0004ff273c.jpeg?v=1533648900813"
+},
+{
+    "isim": "Jacobs Monarch Filtre Kahve",
+    "stok": "10",
+    "marka": "Jacobs",
+    "fiyat": "46.67",
+    "aciklama": "250g",
+    "kategori": ["SuIcecek", "Kahve"],
+    "link": "https://cdn.getir.com/product/5ce65815a72a950001cc874e_tr_1644851925557.jpeg"
+}
+]
